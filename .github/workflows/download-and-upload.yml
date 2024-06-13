@@ -22,15 +22,15 @@ jobs:
 
     - name: Mount FTP directory
       run: |
-        mkdir -p /tool
-        curlftpfs -o user=${{ secrets.FTP_USER }}:${{ secrets.FTP_PASS }} 103.42.57.100 /tool
+        mkdir -p /lich
+        curlftpfs -o user=${{ secrets.FTP_USER }}:${{ secrets.FTP_PASS }} 103.42.57.100 /lich
       env:
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASS: ${{ secrets.FTP_PASS }}
 
     - name: Upload file to FTP server
       run: |
-        cp tool.zip /tool/
+        cp tool.zip /lich
     
     - name: Unmount FTP directory
       run: sudo umount /mnt/ftp
