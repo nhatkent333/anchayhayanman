@@ -26,4 +26,4 @@ jobs:
         FTP_HOST: ${{ secrets.FTP_HOST }}
         FTP_USER: ${{ secrets.FTP_USER }}
         FTP_PASS: ${{ secrets.FTP_PASS }}
-      run: python an_chay_hay_an_man.py
+      run: python an_chay_an_man.py
