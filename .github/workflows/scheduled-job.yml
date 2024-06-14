@@ -3,7 +3,7 @@ name: Daily Scheduled Job
 on:
   schedule:
     # Thiết lập cron schedule tại đây
-    - cron: '30 18 * * *'  # Chạy vào lúc 10h30 giờ UTC (tương đương 17h30 giờ Việt Nam)
+    - cron: '30 23 * * *'  # Chạy vào lúc 10h30 giờ UTC (tương đương 17h30 giờ Việt Nam)
 
 jobs:
   run-job:
