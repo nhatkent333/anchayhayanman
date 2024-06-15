@@ -8,7 +8,7 @@ ftp_user = 'tool'
 ftp_password = 'aaztZ5FWATmmXiyF'
 
 # Google Drive file URL
-file_url = 'https://drive.google.com/uc?export=download&id=1XwMIaRbsv_W4BVP8duhr8PAldpga1HUE'
+file_url = 'https://drive.google.com/uc?export=download&id=1VrRbiJZe2LeVAXR5oddD1dacXOKBDKmg'
 local_filename = 'hom-nay-an-chay-hay-an-man.html'
 
 def download_file(url, local_path):
